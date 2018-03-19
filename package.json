@@ -1,5 +1,5 @@
 {
-  "name": "bitcore-node",
+  "name": "bitcore-local-node",
   "description": "Full node with extended capabilities using Bitcore and Bitcoin Core",
   "engines": {
     "node": ">=8.0.0"

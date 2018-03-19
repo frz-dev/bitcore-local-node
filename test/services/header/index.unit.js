@@ -10,7 +10,7 @@ var utils = require('../../../lib/utils');
 var Block = require('btcl-bitcore-lib').Block;
 var BN = require('bn.js');
 var Emitter = require('events').EventEmitter;
-var bcoin = require('bcoin-local');
+var bcoin = require('btcl-bcoin');
 
 describe('Header Service', function() {
 

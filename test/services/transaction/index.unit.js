@@ -1,7 +1,7 @@
 'use strict';
 
 var should = require('chai').should();
-var bcoin = require('bcoin-local');
+var bcoin = require('btcl-bcoin');
 var Tx = bcoin.tx;
 var Block = bcoin.block;
 var sinon = require('sinon');

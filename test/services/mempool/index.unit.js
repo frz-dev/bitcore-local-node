@@ -4,7 +4,7 @@ var expect = require('chai').expect;
 var MempoolService = require('../../../lib/services/mempool');
 var sinon = require('sinon');
 var Encoding  = require('../../../lib/services/mempool/encoding');
-var bcoin = require('bcoin-local');
+var bcoin = require('btcl-bcoin');
 var Tx = bcoin.tx;
 var Block = bcoin.block;
 

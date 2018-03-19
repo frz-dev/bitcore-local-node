@@ -2,12 +2,12 @@
 
 var sinon = require('sinon');
 var AddressService = require('../../../lib/services/address');
-var Tx = require('bcoin').tx;
+var Tx = require('bcoin-local').tx;
 var expect = require('chai').expect;
 var Encoding  = require('../../../lib/services/address/encoding');
 var Readable = require('stream').Readable;
 var EventEmitter = require('events').EventEmitter;
-var bcoin = require('bcoin');
+var bcoin = require('bcoin-local');
 var lodash = require('lodash');
 
 describe('Address Service', function() {

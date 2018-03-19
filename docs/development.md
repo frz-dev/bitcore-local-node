@@ -15,7 +15,7 @@ To develop bitcore-node:
 ```bash
 cd ~
 git clone git@github.com:<yourusername>/bitcore-node.git
-git clone git@github.com:<yourusername>/bitcore-local-lib.git
+git clone git@github.com:<yourusername>/btcl-bitcore-lib.git
 ```
 
 To develop bitcoin or to compile from source:
@@ -46,7 +46,7 @@ brew install zeromq
 ## Install and Symlink
 
 ```bash
-cd bitcore-local-lib
+cd btcl-bitcore-lib
 npm install
 cd ../bitcore-node
 npm install
@@ -57,8 +57,8 @@ npm install
 We now will setup symlinks in `bitcore-node` *(repeat this for any other modules you're planning on developing)*:
 ```bash
 cd node_modules
-rm -rf bitcore-local-lib
-ln -s ~/bitcore-local-lib
+rm -rf btcl-bitcore-lib
+ln -s ~/btcl-bitcore-lib
 rm -rf bitcoind-rpc
 ln -s ~/bitcoind-rpc
 ```
@@ -135,7 +135,7 @@ Setup symlinks for all of the services and dependencies:
 
 ```bash
 cd node_modules
-ln -s ~/bitcore-local-lib
+ln -s ~/btcl-bitcore-lib
 ln -s ~/bitcore-node
 ln -s ~/insight-api
 ln -s ~/insight-ui

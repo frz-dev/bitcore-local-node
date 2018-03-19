@@ -94,7 +94,7 @@ describe('#add', function() {
       var callCount = 0;
       var oldPackage = {
         dependencies: {
-          'bitcore-local-lib': '^v0.13.7',
+          'btcl-bitcore-lib': '^v0.13.7',
           'bitcore-node': '^v0.2.0'
         }
       };

@@ -95,7 +95,7 @@ describe('#add', function() {
       var oldPackage = {
         dependencies: {
           'btcl-bitcore-lib': '^v0.13.7',
-          'bitcore-node': '^v0.2.0'
+          'btcl-bitcore-node': '^v0.2.0'
         }
       };
       var spawn = sinon.stub().returns({

@@ -29,7 +29,7 @@
   ],
   "dependencies": {
     "async": "^2.5.0",
-    "btcl-bcoin": "v1.0.0-beta.14a",
+    "btcl-bcoin": "v1.0.0-beta.14b",
     "bitcoind-rpc": "^0.6.0",
     "btcl-bitcore-lib": "5.0.0-beta.1",
     "btcl-bitcore-p2p": "5.0.0-beta.1",
